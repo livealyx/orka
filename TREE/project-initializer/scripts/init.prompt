@@ -1,7 +1,0 @@
-When user asks to start a TREE project:
-
-- Ask for preferred stack
-- Generate folder structure
-- Create starter files
-- Setup package.json if node is selected
-- Setup composer.json if PHP is selected
