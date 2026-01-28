@@ -60,14 +60,22 @@ TREE/
 
 ## 🛠 Installation
 
-### Step 1 — Clone into Antigravity
+### Step 1 - For create - .agent\skills (by deafult antigravity doesn't provide this folder)
+
+```bash
+cd C:\Users\YOUR_USERNAME\.antigravity
+mkdir .agent
+mkdir .agent\skills
+```
+
+### Step 2 — Clone into Antigravity
 
 ```bash
 cd C:\Users\YOUR_USERNAME\.antigravity\.agent\skills
 git clone https://github.com/livealyx/TREE.git
 ```
 
-### Step 2 — Reload Skills
+### Step 3 — Reload Skills
 
 ```bash
 antigravity reload-skills
