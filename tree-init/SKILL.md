@@ -21,3 +21,5 @@ When the user types `tree init`, this skill takes control of the project setup.
 - Copy config.template to project root as tree.config.md
 - Ask questions from interview.prompt
 - Use orchestrator.prompt to decide which skills to run
+
+Run the script: node tree-init/scripts/init.js

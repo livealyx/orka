@@ -1,141 +1,66 @@
-# 🌳 TREE 2.0 – The Reusable Engineering Ecosystem
+# 🌳 TREE 2.1 – The Reusable Engineering Ecosystem
 
-### AI‑Driven Project Framework for Google Antigravity  
+### Command‑Driven AI Project Framework for Google Antigravity  
 Created by **Ashish Saini (livealyx)**
 
 ---
 
-## 🚀 What is TREE 2.0?
+## 🚀 What is TREE 2.1?
 
-**TREE 2.0 is a command‑driven AI project framework built on top of Google Antigravity skills.**
+TREE 2.1 upgrades the framework with **true project initialization automation**.
 
-It transforms Antigravity from a prompt-based assistant into a **structured project generator** that works like a development CLI.
+TREE now combines:
 
-You don’t write prompts anymore.  
-You run a command:
+- AI Skill Orchestration (Antigravity)
+- File System Automation (`init.js`)
+- Project Memory (`tree.config.md` + `.tree/state.md`)
 
-```
-tree init
-```
+You no longer write prompts like:
 
-And TREE takes control of the entire project flow.
+    Using TREE skills...
 
----
+You simply run:
 
-## 🌟 Why TREE 2.0?
+    tree init
 
-TREE 1.0 was a skill collection.  
-TREE 2.0 is a **framework + controller + modular skill system**.
-
-| TREE 1.0 | TREE 2.0 |
-|----------|----------|
-| Manual prompts | Command driven |
-| “Using TREE skills…” | `tree init` |
-| Skills used manually | Skills auto‑selected |
-| Skill pack | Development framework |
-| No project memory | `tree.config.md` + `.tree/` state |
+And TREE prepares the entire project environment for you.
 
 ---
 
-## 🧠 Core Concept
+## 🧠 Core Components
 
-TREE 2.0 introduces a **project brain file**:
+| Component | Role |
+|---|---|
+| `tree-init` | Master controller skill |
+| `init.js` | Automation bridge for file creation |
+| `skills/` | Worker modules |
+| `tree.config.md` | Project brain |
+| `.tree/state.md` | Project memory & progress tracker |
 
-```
-tree.config.md
-```
-
-All skills read this file before generating anything.
-
-This makes TREE **self‑orchestrating**.
-
----
-
-## ⚙️ How TREE 2.0 Works
-
-```
-Install TREE
-      ↓
-Create new empty project
-      ↓
-Run: tree init
-      ↓
-Answer interview questions
-      ↓
-tree.config.md created
-      ↓
-Say: Build the project
-      ↓
-TREE selects & runs correct skills automatically
-```
-
-No need to mention skills. Ever.
+All skills read config and state before generating anything.
 
 ---
 
-## 📁 What Happens Inside Your Project
-
-After `tree init`:
-
-```
-project/
- ├── tree.config.md
- └── .tree/
-      ├── state.md
-      └── logs.md
-```
-
-TREE now understands:
-
-- Static or Dynamic
-- Language
-- Framework
-- Project type
-
----
-
-## 🧩 TREE 2.0 Architecture
+## 📦 Repository Architecture
 
 ```
 TREE/
-├── tree-init/   → Controller (entry command)
-└── skills/      → Worker modules
+├── tree-init/
+│   └── scripts/
+│        ├── init.js
+│        ├── config.template
+│        ├── state.template
+│        ├── interview.prompt
+│        └── orchestrator.prompt
+│
+└── skills/
 ```
 
-- `tree-init` = interview + config creator
-- `skills` = modules that generate parts of the project
-
-Each skill reads `tree.config.md` before running.
-
 ---
 
-## 💻 Supported Technologies
+## 🛠 Installation
 
-### Languages
-- PHP
-- HTML
-- CSS
-- Node.js
-- Perl
-
-### Frameworks
-- Tailwind CSS
-- Bootstrap
-- React.js
-- Vue.js
-- Astro
-- Next.js
-- Remix
-
-### Databases
-- MySQL
-- MariaDB
-
----
-
-# 🛠 Installation
-
-### Step 1 — Clone TREE into Antigravity
+### Step 1 — Clone into Antigravity
 
 ```bash
 cd C:\Users\YOUR_USERNAME\.antigravity\.agent\skills
@@ -148,27 +73,87 @@ git clone https://github.com/livealyx/TREE.git
 antigravity reload-skills
 ```
 
-TREE 2.0 is now installed.
+TREE 2.1 is now installed.
 
 ---
 
-# 🚀 How to Start Any Project (TREE Way)
+# 🚀 How to Start Any New Project (Follow Exactly)
 
-1. Create a new empty folder
-2. Open it in Antigravity
-3. Run:
+Assume your project folder is:
+
+```
+D:\Projects\School-System
+```
+
+---
+
+## ✅ STEP 1 — Create empty project folder
+
+Open this folder in Antigravity.
+
+---
+
+## ✅ STEP 2 — Start TREE
+
+In Antigravity chat, type:
 
 ```
 tree init
 ```
-4. Answer questions
-5. Say:
+
+TREE will begin the interview process.
+
+---
+
+## ✅ STEP 3 — Open project terminal
+
+Open terminal in this project folder:
+
+```bash
+cd D:\Projects\School-System
+```
+
+---
+
+## ✅ STEP 4 — Run the automation script
+
+```bash
+node C:\Users\YOUR_USERNAME\.antigravity\.agent\skills\TREE\tree-init\scripts\init.js
+```
+
+This automatically creates:
+
+```
+tree.config.md
+.tree/state.md
+```
+
+---
+
+## ✅ STEP 5 — Verify files
+
+```
+School-System/
+ ├── tree.config.md
+ └── .tree/state.md
+```
+
+---
+
+## ✅ STEP 6 — Tell TREE to build
+
+Return to Antigravity and type:
 
 ```
 Build the project
 ```
 
-TREE generates everything.
+TREE will now:
+
+- Read configuration
+- Read state
+- Auto‑select correct skills
+- Generate the full project
 
 ---
 
@@ -180,52 +165,17 @@ Do NOT say:
 Using TREE skills
 ```
 
-That was TREE 1.0.
+That was TREE 1.0 behavior.
 
-TREE 2.0 is command‑based.
-
----
-
-## 🏗 Example Flow
-
-```
-tree init
-→ Dynamic
-→ PHP
-→ Tailwind
-→ School Management System
-
-Build the project
-```
-
-TREE will create:
-
-- Backend structure
-- UI structure
-- Database schema
-- Clean architecture
+TREE 2.1 is command‑driven.
 
 ---
 
-## 📦 Repository Structure
+## 💻 Supported Technologies
 
-```
-TREE/
-├── tree-init/
-└── skills/
-```
-
-Framework + modules design.
-
----
-
-## 👨‍💻 Who Should Use TREE 2.0?
-
-- Developers
-- Freelancers
-- Agencies
-- Students
-- AI automation enthusiasts
+Languages: PHP, HTML, CSS, Node.js, Perl  
+Frameworks: Tailwind, Bootstrap, React, Vue, Astro, Next, Remix  
+Databases: MySQL, MariaDB
 
 ---
 
@@ -237,11 +187,10 @@ MIT License
 
 ## 📞 Contact
 
-**Ashish Saini (livealyx)**  
-🌐 https://creativealt.in  
-📧 ashish@creativealt.in  
-🐙 https://github.com/livealyx  
+Ashish Saini (livealyx)  
+https://creativealt.in  
+ashish@creativealt.in
 
 ---
 
-### 🌳 TREE 2.0 – Build Projects the Intelligent Way
+### 🌳 TREE 2.1 – Intelligent Projects, Structured by AI
