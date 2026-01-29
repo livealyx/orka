@@ -1,13 +1,13 @@
-# 🌳 TREE 2.2 – The Reusable Engineering Ecosystem
+# 🌳 ORKA 2.2 – The Reusable Engineering Ecosystem
 
 ### Command-Driven AI Project Framework for Google Antigravity  
 Created by **Ashish Saini (livealyx)**
 
 ---
 
-## 🚀 What is TREE 2.2?
+## 🚀 What is ORKA 2.2?
 
-TREE 2.2 is a command-driven AI development framework for Google Antigravity that combines:
+ORKA 2.2 is a command-driven AI development framework for Google Antigravity that combines:
 
 - AI Skill Orchestration
 - Automated Project Initialization
@@ -15,13 +15,13 @@ TREE 2.2 is a command-driven AI development framework for Google Antigravity tha
 
 You no longer write prompts like:
 
-    Using TREE skills...
+    Using ORKA skills...
 
 You simply use:
 
-    tree init
+    orka init
 
-TREE prepares and builds your project using structured automation.
+ORKA prepares and builds your project using structured automation.
 
 ---
 
@@ -29,7 +29,7 @@ TREE prepares and builds your project using structured automation.
 
 GitHub structure and Antigravity structure are different.
 
-TREE solves this using:
+ORKA solves this using:
 
 install.js
 
@@ -39,9 +39,9 @@ This script converts the framework layout into the flat skill layout required by
 
 ## 📦 GitHub Repository Structure (Framework Layout)
 
-TREE/
+ORKA/
 ├── install.js
-├── tree-init/
+├── orka-init/
 └── skills/
 
 This is clean, modular, and version-controlled.
@@ -53,7 +53,7 @@ This is clean, modular, and version-controlled.
 After running installer, Antigravity gets:
 
 .antigravity/.agent/skills/
-├── tree-init/
+├── orka-init/
 ├── html-builder/
 ├── css-designer/
 ├── php-backend/
@@ -73,21 +73,21 @@ mkdir .agent
 mkdir .agent\skills
 ```
 
-### Step 2 — Clone TREE
+### Step 2 — Clone ORKA
 
 cd C:\Users\YOUR_USERNAME\.antigravity
-git clone https://github.com/livealyx/TREE.git
+git clone https://github.com/livealyx/ORKA.git
 
 ### Step 3 — Run Installer
 
-cd TREE
+cd ORKA
 node install.js
 
 ### Step 4 — Reload Skills
 
 antigravity reload-skills
 
-TREE is now properly installed.
+ORKA is now properly installed.
 
 ---
 
@@ -101,7 +101,7 @@ D:\Projects\School-System
 
 ### STEP 2 — Type
 
-tree init
+orka init
 
 ### STEP 3 — Open terminal in project
 
@@ -109,12 +109,12 @@ cd D:\Projects\School-System
 
 ### STEP 4 — Run automation
 
-node C:\Users\YOUR_USERNAME\.antigravity\TREE\tree-init\scripts\init.js
+node C:\Users\YOUR_USERNAME\.antigravity\ORKA\orka-init\scripts\init.js
 
 This creates:
 
-tree.config.md
-.tree/state.md
+orka.config.md
+.orka/state.md
 
 ### STEP 5 — Go back to Antigravity
 
@@ -122,7 +122,7 @@ Type:
 
 Build the project
 
-TREE will generate everything automatically.
+ORKA will generate everything automatically.
 
 ---
 
@@ -148,4 +148,4 @@ ashish@creativealt.in
 
 ---
 
-### 🌳 TREE 2.2 – From Framework to Fully Installable System
+### 🌳 ORKA 2.2 – From Framework to Fully Installable System

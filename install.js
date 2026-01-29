@@ -17,8 +17,8 @@ function copyDir(src, dest) {
   }
 }
 
-// Copy tree-init
-copyDir(path.join(sourceRoot, 'tree-init'), path.join(agSkills, 'tree-init'));
+// Copy orka-init
+copyDir(path.join(sourceRoot, 'orka-init'), path.join(agSkills, 'orka-init'));
 
 // Copy all skills
 const skillsDir = path.join(sourceRoot, 'skills');
@@ -26,4 +26,4 @@ for (const skill of fs.readdirSync(skillsDir)) {
   copyDir(path.join(skillsDir, skill), path.join(agSkills, skill));
 }
 
-console.log('TREE installed into Antigravity skills successfully!');
+console.log('ORKA installed into Antigravity skills successfully!');
