@@ -5,9 +5,9 @@ Created by **Ashish Saini (livealyx)**
 
 ---
 
-## 🚀 What is ORKA 2.2?
+## 🚀 What is ORKA 3.0?
 
-ORKA 2.2 is a command-driven AI development framework for Google Antigravity that combines:
+ORKA 3.0 is a command-driven AI development framework for Google Antigravity that combines:
 
 - AI Skill Orchestration
 - Automated Project Initialization
@@ -25,7 +25,7 @@ ORKA prepares and builds your project using structured automation.
 
 ---
 
-## 🧠 The Important Concept in 2.2
+## 🧠 The Important Concept in 3.0
 
 GitHub structure and Antigravity structure are different.
 
