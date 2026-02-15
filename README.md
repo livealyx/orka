@@ -1,142 +1,120 @@
-# 🐋 ORKA v3.0 – Orchestrated Resource & Knowledge Automation
+# 🐋 ORKA v4.0 – Autonomous Skill Orchestration for IDE AI
 
-### A Project‑Local AI Skills Framework for Google Antigravity
+**A Project‑Local AI Skill Runtime for IDEs**  
 Created by **Ashish Saini (livealyx)**
 
 ---
 
-## 🚀 What is ORKA?
+## 🚀 What is ORKA v4?
 
-ORKA is a **portable AI skills kit** that lives **inside every project** and turns Antigravity into a structured project generator.
+ORKA v4 transforms IDE AI from a chat assistant into an **interview‑driven, rule‑bound, skill‑orchestrated project builder**.
 
-Unlike previous approaches, ORKA is **not installed globally**.  
-It is **included inside the project** so the AI can see and follow the skills.
-
----
-
-## 🧠 Core Principle (Very Important)
-
-Antigravity AI can only read files that exist **inside the current project workspace**.
-
-That is why ORKA v3 uses a **project‑local `.agent/skills` structure**.
+ORKA works because IDE AI is forced to read files that exist **inside the project workspace**.  
+By placing `.agent` and `.orka` inside the project, ORKA controls how the AI thinks, asks questions, plans, and generates code.
 
 ---
 
-## 📁 ORKA Repository Structure
+## 🧠 What’s New in v4
 
-```
-ORKA/
-└── .agent/
-    └── skills/
-        ├── orka-init/
-        ├── html-builder/
-        ├── css-designer/
-        ├── php-backend/
-        ├── mysql-manager/
-        ├── node-backend/
-        ├── react-app/
-        ├── vue-app/
-        ├── nextjs-app/
-        ├── astro-site/
-        ├── remix-app/
-        └── deployment/
-```
-
-This folder is copied directly into any new project.
+| Feature | Description |
+|---|---|
+| ORKA Brain | `.orka/brain.md` controls how AI behaves |
+| Activation Mode | ORKA activates only when user types **"Use ORKA"** |
+| Interview Mode | AI must ask questions before planning |
+| plan.md | AI writes execution plan before coding |
+| state.md | Persistent project memory |
+| graph.json | Skill relationship mapping |
+| SKILL.meta.json | Self‑describing skills for auto‑selection |
+| Design Rules | UI/UX/Style intelligence inside skills |
+| Skill Chaining | Automatic multi‑skill execution |
+| Deterministic Builds | No hallucinated architecture |
 
 ---
 
-## 🛠 How to Use ORKA in a New Project
+## 📦 Installation
 
-### Step 1 — Create a new empty project folder
-
-Example:
+1. Copy **`.agent`** and **`.orka`** folders into your project root.
 
 ```
-D:\Projects\MyWebsite
+your-project/
+├── .agent/
+├── .orka/
 ```
 
-### Step 2 — Copy `.agent` folder from ORKA into this project
+2. Open project in IDE.
 
-Now your project looks like:
-
-```
-MyWebsite/
-└── .agent/
-    └── skills/
-```
-
-### Step 3 — Open this project in Antigravity
-
-### Step 4 — Start ORKA
-
-In the chat box, type:
+3. In chat, type:
 
 ```
-Using ORKA, initialize this project
+Use ORKA
+```
+
+4. ORKA will start asking interview questions.  
+5. After answers, ORKA creates `plan.md` and begins execution.
+
+---
+
+## 🔄 ORKA v4 Workflow
+
+```
+You say: "Use ORKA"
+        ↓
+ORKA Brain activates
+        ↓
+Interview Questions
+        ↓
+plan.md created
+        ↓
+Skills auto‑selected via SKILL.meta.json
+        ↓
+Skill chaining via graph.json
+        ↓
+Code generation from templates
+        ↓
+state.md updated after each step
 ```
 
 ---
 
-## 🗂 What Happens Next
-
-ORKA will:
-
-1. Ask you interview questions (from `interview.prompt`)
-2. Ask you to run:
+## 🗂 Required Structure
 
 ```
-node .agent/skills/orka-init/scripts/init.js
+project/
+├── .agent/
+│   └── skills/
+│       └── <skill-name>/
+│           ├── SKILL.md
+│           ├── SKILL.meta.json
+│           ├── templates/
+│           ├── prompts/
+│           └── design-rules/
+└── .orka/
+    ├── brain.md
+    ├── plan.md
+    ├── state.md
+    └── graph.json
 ```
-
-3. This creates:
-
-```
-orka.config.md
-.orka/state.md
-```
-
-4. Then you say:
-
-```
-Continue with ORKA
-```
-
-And ORKA will start generating your project using the correct skills.
 
 ---
 
-## 💻 Supported Technologies
+## 🎯 What ORKA v4 Solves
 
-**Languages**  
-PHP, HTML, CSS, Node.js, Perl
-
-**Frameworks**  
-Tailwind, Bootstrap, React, Vue, Astro, Next, Remix
-
-**Databases**  
-MySQL, MariaDB
+- No architecture hallucination
+- No framework mixing
+- Proper requirement gathering
+- Deterministic multi‑step builds
+- Consistent UI/UX via design rules
+- Persistent AI memory
 
 ---
 
-## 🎯 Why ORKA Works
+## 👨‍💻 Developer Info
 
-Because the skills are visible to the AI inside the project, Antigravity follows the defined SKILL.md rules instead of improvising.
-
----
-
-## 📜 License
-
-MIT License
+**Name:** Ashish Saini (livealyx)  
+**Organization:** Creative ALT Media Group  
+**Website:** https://creativealt.in  
+**Email:** ashish@creativealt.in
 
 ---
 
-## 📞 Contact
-
-Ashish Saini (livealyx)  
-https://creativealt.in  
-ashish@creativealt.in
-
----
-
-### 🐋 ORKA – Orchestrate Your Projects with AI
+## 🐋 ORKA – Don’t prompt the AI. Orchestrate it.

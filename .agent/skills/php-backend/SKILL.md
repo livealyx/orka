@@ -1,7 +1,3 @@
----
-name: php-backend
-description: PHP website logic skill
----
+# SKILL
 
-# Goal
-Handle PHP website logic and backend operations.
+AI must read this skill’s SKILL.meta.json before executing the skill.

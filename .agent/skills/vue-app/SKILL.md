@@ -1,7 +1,8 @@
----
-name: vue-app
-description: Vue frontend skill
----
+AI must read all files inside design-rules/ before generating UI.
+AI must read this skill’s SKILL.meta.json before executing the skill.
 
-# Goal
-Generate Vue frontend applications and components.
+# SKILL
+
+AI must read all files inside design-rules/ before generating UI.
+
+AI must read this skill’s SKILL.meta.json before executing the skill.

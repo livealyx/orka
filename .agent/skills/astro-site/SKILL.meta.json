@@ -1,0 +1,29 @@
+{
+    "name": "astro-site",
+    "category": "core",
+    "triggers": [
+        "ui",
+        "frontend",
+        "layout",
+        "dashboard",
+        "website",
+        "astro site"
+    ],
+    "intent": [
+        "frontend",
+        "ui",
+        "web app"
+    ],
+    "requires": [
+        "node-backend",
+        "database-connector"
+    ],
+    "optional_with": [
+        "auth-module",
+        "docker-deploy"
+    ],
+    "produces": [
+        "ui-structure"
+    ],
+    "reads_design_rules": true
+}

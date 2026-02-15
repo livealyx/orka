@@ -1,7 +1,8 @@
----
-name: nextjs-app
-description: Next.js app skill
----
+AI must read all files inside design-rules/ before generating UI.
+AI must read this skill’s SKILL.meta.json before executing the skill.
 
-# Goal
-Generate Next.js applications and pages.
+# SKILL
+
+AI must read all files inside design-rules/ before generating UI.
+
+AI must read this skill’s SKILL.meta.json before executing the skill.

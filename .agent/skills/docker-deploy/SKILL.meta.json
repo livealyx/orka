@@ -1,0 +1,21 @@
+{
+    "name": "docker-deploy",
+    "category": "infra",
+    "triggers": [
+        "deploy",
+        "docker",
+        "container",
+        "hosting"
+    ],
+    "intent": [
+        "deployment"
+    ],
+    "requires": [
+        "node-backend"
+    ],
+    "optional_with": [],
+    "produces": [
+        "deployment-config"
+    ],
+    "reads_design_rules": false
+}

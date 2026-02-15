@@ -1,7 +1,0 @@
-<?php
-class {{NAME}}Controller {
-    public function index() {
-        // logic here
-    }
-}
-?>

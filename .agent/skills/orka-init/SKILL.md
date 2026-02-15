@@ -1,10 +1,17 @@
+# ORKA INIT — Command Skill
 
-# ORKA Init Controller Skill
+IF the user message contains:
 
-Trigger: Using ORKA, initialize this project
+"Use ORKA"
 
-Steps:
-1. Read scripts/interview.prompt
-2. Ask questions to user
-3. After answers, instruct user to run init.js
-4. Continue using orchestrator.prompt
+THEN AI MUST:
+
+1. Enter Interview Mode.
+2. Ask project clarification questions.
+3. DO NOT generate code.
+4. DO NOT create plan.md.
+5. Wait for user answers.
+6. After answers, create plan.md and proceed.
+
+AI is not allowed to assume anything after "Use ORKA".
+AI must ask questions first.

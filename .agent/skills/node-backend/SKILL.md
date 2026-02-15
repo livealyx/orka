@@ -1,7 +1,3 @@
----
-name: node-backend
-description: Node APIs skill
----
+# SKILL
 
-# Goal
-Handle Node.js API development and backend logic.
+AI must read this skill’s SKILL.meta.json before executing the skill.

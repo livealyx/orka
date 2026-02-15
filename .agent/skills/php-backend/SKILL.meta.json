@@ -1,0 +1,25 @@
+{
+    "name": "php-backend",
+    "category": "core",
+    "triggers": [
+        "backend",
+        "api",
+        "server",
+        "logic",
+        "php backend"
+    ],
+    "intent": [
+        "api",
+        "business logic"
+    ],
+    "requires": [
+        "database-connector"
+    ],
+    "optional_with": [
+        "auth-module"
+    ],
+    "produces": [
+        "api-layer"
+    ],
+    "reads_design_rules": false
+}

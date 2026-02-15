@@ -1,0 +1,78 @@
+{
+    "skills": [
+        {
+            "name": "nextjs-app",
+            "triggers": [
+                "react",
+                "nextjs",
+                "frontend",
+                "ssr",
+                "dashboard"
+            ],
+            "requires": [
+                "node-backend"
+            ],
+            "produces": [
+                "ui-structure"
+            ]
+        },
+        {
+            "name": "node-backend",
+            "triggers": [
+                "api",
+                "backend",
+                "server",
+                "auth"
+            ],
+            "requires": [
+                "database-connector"
+            ],
+            "produces": [
+                "api-layer"
+            ]
+        },
+        {
+            "name": "database-connector",
+            "triggers": [
+                "database",
+                "mysql",
+                "mariadb",
+                "schema"
+            ],
+            "requires": [],
+            "produces": [
+                "db-connection"
+            ]
+        },
+        {
+            "name": "auth-module",
+            "triggers": [
+                "login",
+                "signup",
+                "authentication",
+                "jwt"
+            ],
+            "requires": [
+                "node-backend"
+            ],
+            "produces": [
+                "auth-system"
+            ]
+        },
+        {
+            "name": "docker-deploy",
+            "triggers": [
+                "deploy",
+                "docker",
+                "container"
+            ],
+            "requires": [
+                "node-backend",
+                "nextjs-app"
+            ],
+            "produces": [
+                "deployment-config"
+            ]
+        }
+    ]
+}

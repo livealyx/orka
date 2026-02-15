@@ -1,0 +1,22 @@
+{
+    "name": "auth-module",
+    "category": "module",
+    "triggers": [
+        "login",
+        "signup",
+        "auth",
+        "authentication",
+        "jwt"
+    ],
+    "intent": [
+        "authentication"
+    ],
+    "requires": [
+        "node-backend"
+    ],
+    "optional_with": [],
+    "produces": [
+        "auth-system"
+    ],
+    "reads_design_rules": false
+}

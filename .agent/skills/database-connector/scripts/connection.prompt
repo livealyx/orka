@@ -1,6 +1,0 @@
-When user asks for database integration:
-
-- Ask which DB: MySQL or MariaDB
-- Generate connection file
-- Create sample CRUD
-- Setup environment variables

@@ -1,13 +1,3 @@
----
-name: mysql-manager
-description: Manage MySQL database operations
----
+# SKILL
 
-# Goal
-Handle MySQL DB integration
-
-# Features
-- Create tables
-- CRUD generation
-- Backup scripts
-- Optimization queries
+AI must read this skill’s SKILL.meta.json before executing the skill.

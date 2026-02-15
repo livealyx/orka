@@ -1,0 +1,19 @@
+{
+    "name": "orka-init",
+    "category": "core",
+    "triggers": [
+        "initialize",
+        "start project",
+        "setup project"
+    ],
+    "intent": [
+        "project initialization"
+    ],
+    "requires": [],
+    "optional_with": [],
+    "produces": [
+        "orka.config",
+        "orka.state"
+    ],
+    "reads_design_rules": false
+}

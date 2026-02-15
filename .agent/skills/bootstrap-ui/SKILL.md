@@ -1,7 +1,8 @@
----
-name: bootstrap-ui
-description: Bootstrap UI components skill
----
+AI must read all files inside design-rules/ before generating UI.
+AI must read this skill’s SKILL.meta.json before executing the skill.
 
-# Goal
-Provide Bootstrap UI components.
+# SKILL
+
+AI must read all files inside design-rules/ before generating UI.
+
+AI must read this skill’s SKILL.meta.json before executing the skill.

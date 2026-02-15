@@ -1,0 +1,25 @@
+{
+    "name": "node-backend",
+    "category": "core",
+    "triggers": [
+        "backend",
+        "api",
+        "server",
+        "logic",
+        "node backend"
+    ],
+    "intent": [
+        "api",
+        "business logic"
+    ],
+    "requires": [
+        "database-connector"
+    ],
+    "optional_with": [
+        "auth-module"
+    ],
+    "produces": [
+        "api-layer"
+    ],
+    "reads_design_rules": false
+}

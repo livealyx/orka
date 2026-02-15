@@ -1,0 +1,20 @@
+{
+    "name": "mysql-manager",
+    "category": "core",
+    "triggers": [
+        "database",
+        "schema",
+        "mysql",
+        "mariadb",
+        "db"
+    ],
+    "intent": [
+        "data storage"
+    ],
+    "requires": [],
+    "optional_with": [],
+    "produces": [
+        "db-connection"
+    ],
+    "reads_design_rules": false
+}

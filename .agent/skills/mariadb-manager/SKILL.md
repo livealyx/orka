@@ -1,12 +1,3 @@
----
-name: mariadb-manager
-description: Manage MariaDB database operations
----
+# SKILL
 
-# Goal
-Handle MariaDB integration for TREE
-
-# Instructions
-- Create optimized MariaDB queries
-- Setup connection files
-- Generate backups
+AI must read this skill’s SKILL.meta.json before executing the skill.
